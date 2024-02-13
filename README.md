@@ -32,6 +32,20 @@ Additionally, https://docs.cloudera.com/machine-learning/cloud/applied-ml-protot
 
 Note that other than the `/samples` directory, the rest of the repo should stay "as is" and both the location of the files in the root directory (`/`) as well as the naming coventions are relevant.
 
+## Required Folder Structure
+
+There are several CML components to observe: **"Jobs", "Sessions", "Applications", "Models", and "Experiments"**. These should be observed as part of the AMP folder structuring in building community AMPs. For example, the following structure may parallel the contents of `/sample-project-metadata/project-metadata-sample-1.yaml`:
+
+```yaml
+/
+  /0_session-verify-deps
+  /1_session-install-deps
+  /2_job-populate-vectordb
+  /3_app
+```
+
+By following this general structure, `/<step number>_<CML Component>-<your task description>`, you can ensure consistency in how the repo is interpreted after it has been deployed and the users can easily understand the steps taken and if failure occured, which step it occured at.
+
 ## Adding custom catalog entries to your organization's instance of CML
 
 The collection of AMPs available to end users can draw from one or more sources. For example, you might have an internal company catalog in addition to the default Cloudera catalog. The catalog must be provided with a catalog file and one or more project metadata YAML files.
