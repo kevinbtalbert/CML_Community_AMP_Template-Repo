@@ -1,17 +1,17 @@
 # CML Community AMP Template Repo
 This repo was designed as a template to be cloned for a barebones structure of a CML AMP application. This is meant to accelerate individuals wanting to contribute to the CML community AMPs repository.
 
-Applied ML Prototypes (AMPs) provide reference example machine learning projects in Cloudera Machine Learning. More than simplified quickstarts or tutorials, AMPs are fully-developed expert solutions created by Cloudera’s research arm, Fast Forward Labs.
-
-These solutions to common problems in the machine learning field demonstrate how to fully use the power of Cloudera Machine Learning. AMPs allow you to create Cloudera Machine Learning projects to solve your own use cases.
+**Applied ML Prototypes (AMPs)** provide reference example machine learning projects in Cloudera Machine Learning. These solutions to common problems in the machine learning field demonstrate how to fully use the power of Cloudera Machine Learning. AMPs allow you to create Cloudera Machine Learning projects to solve your own use cases.
 
 AMPs are available to install and run from the Cloudera Machine Learning user interface. As new AMPs are developed, they will become available to you for your study and use. This repo attempts to make building your own easier.
+
+## Building Your Own AMPs
 
 One great use for AMPs is to showcase reference examples specific to your business by creating your own AMPs in-house. Once a data science project has been built in Cloudera Machine Learning, you can package it and have the Cloudera Machine Learning Admin add it to the AMP Catalog.
 
 Each individual AMP requires a project metadata file, which defines the environmental resources needed by the AMP, and the setup steps to install the AMP in a Cloudera Machine Learning workspace. See Required Components below for details.
 
-Note: You can store your AMPs in a git repo hosted on Github, Github Enterprise, or GitLab servers (not limited to github.com or gitlab.com.) Additionally, only simple authentication is supported, such as passing an API key, or including the username and password, as part of the URL. If additional authentication steps are required, then that git host is not supported.
+***Note****: You can store your AMPs in a git repo hosted on Github, Github Enterprise, or GitLab servers (not limited to github.com or gitlab.com.) Additionally, only simple authentication is supported, such as passing an API key, or including the username and password, as part of the URL. If additional authentication steps are required, then that git host is not supported.*
 
 ## Required Components
 
